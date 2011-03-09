@@ -1,0 +1,135 @@
+msgid "Flash Gallery"
+msgstr "Flash галерея"
+
+msgid "Galleries List"
+msgstr "Список галерей"
+
+msgid "Create gallery"
+msgstr "Новая галерея"
+
+msgid "Preferences"
+msgstr "Настройки"
+
+msgid "Images List"
+msgstr "Список изображений"
+
+msgid "Upload images"
+msgstr "Загрузить изображения"
+
+msgid "Server Name:"
+msgstr "Имя сервера:"
+
+msgid "Document Root:"
+msgstr "Абсолютный путь к сайту:"
+
+msgid "Web server:"
+msgstr "Web сервер:"
+
+msgid "Host:"
+msgstr "Хост:"
+
+msgid "Client Agent:"
+msgstr "Браузер:"
+
+msgid "Word Press version:"
+msgstr "Версия Word Press:"
+
+msgid "Max size of uploaded file:"
+msgstr "Максимальный размер загружаемого файла:"
+
+msgid "Server doesn't support zip extracting"
+msgstr "Сервер не поддерживает распаковку zip архивов"
+
+msgid "Folder"
+msgstr "Папка"
+
+msgid "doesn't exist"
+msgstr "не существует"
+
+msgid "is not writable"
+msgstr "не доступна на запись"
+
+msgid "Copy settings to clipboard"
+Preferences page
+Images in
+Add images
+Create album
+There are no images in this gallery
+Album has been saved
+Album name cannot be empty
+Edit gallery
+List images
+Embed code
+Copy to clipboard
+Image has been saved
+Image name cannot be empty
+Edit folder
+Edit image
+Add new gallery
+Name
+Cover
+Description
+Attributes
+Actions
+There are no albums yet. You can create new one using Add gallery menu
+Remove
+Set as cover
+Edit
+Caption
+Preview
+Go up
+There are no images yet. You can upload new ones using Upload images menu
+Choose album
+Go
+Number of photos:
+Total size:
+Gallery status:
+Image is not in any gallery
+Galleries:
+Image size:
+Upload date:
+Images:
+Image type:
+Images size:
+Create date:
+Edit gallery
+Delete gallery
+Change name
+Delete folder
+Edit image
+Delete image
+Source
+Width:
+Height:
+Color:
+Gallery type:
+Caption:
+Description:
+Name:
+Insert gallery into post
+Choose files to upload
+Upload ZIP archive
+Upload images from computer
+Upload
+Cancel all uploads
+Server Settings
+Gallery List
+Sort by:
+Title ASC
+Title DESC
+Date ASC
+Date DESC
+Size ASC
+Size DESC
+Images List
+Create new folder
+Upload photo
+Choose action
+Delete selected
+Move to
+Root folder
+Make new gallery from selected
+Add to gallery
+Insert Gallery
+Choose gallery:
+Settings have been saved successfully
