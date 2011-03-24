@@ -1,0 +1,125 @@
+Galleries List
+Create gallery
+Images List
+Upload images
+URL
+ZIP archive
+FTP folder
+Upload images from:
+Local computer
+Wodpress Gallery
+Note: Important! If single image is more then 1Mb galleries may work slower
+Images will be saved to:
+Images won\'t be copied only the info
+Choose images from WordPress Gallery to add
+Add url
+Type the URL of the image
+Images will be downloaded from remote server
+Root folder
+Choose images to add
+Upload
+FTP password
+FTP username
+FTP server name
+FTP Folder name
+Include subfolders
+Cancel all uploads
+Folder
+doesn't exist
+is not writable
+Preferences page
+Server Settings
+Server Name:
+Document Root:
+Web server:
+Host:
+Client Agent:
+Word Press version:
+Plugin version:
+Max size of uploaded file:
+Copy settings to clipboard
+Updates
+Already Installed Updates
+There are no updates yet. You can get them at <a href="http://1plugin.com/order">1 Flash Gallery Wordpress Plugin Site</a>
+Gallery List
+Sort by:
+Title ASC
+Title DESC
+Date ASC
+Date DESC
+Create gallery
+Preferences
+Images in
+Add images
+List images
+Create album
+There are no images in this gallery
+Edit gallery
+Add new gallery
+Delete gallery
+Embed code
+Image has been saved
+Image name cannot be empty
+Edit folder
+Edit image
+Full view
+Copy to clipboard
+Images List
+Images
+Size ASC
+Size DESC
+Create new folder
+Upload photo
+Actions
+Choose action
+Delete selected
+Make new gallery from selected
+Move selected to
+Add selected to
+Go
+General
+Name
+Cover
+Description
+Attributes
+Actions
+There are no galleries yet. You can create new one using Add gallery menu
+Remove
+Set as cover
+Edit
+Caption
+Preview
+Go up
+There are no images yet. You can upload new ones using Upload images menu
+Choose album
+Number of photos:
+Total size:
+Gallery status:
+Galleries:
+Image type:
+Image size:
+Upload date:
+Image is not in any gallery
+Images:
+Images size:
+Create date:
+Change name
+Delete folder
+Delete image
+Name:
+Description:
+Source
+Local
+Width:
+Height:
+Background Color:
+Gallery Type:
+Caption:
+Description:
+Insert gallery into post
+Insert Gallery
+Flash object
+Text link to gallery
+Cover as link to gallery
+Add to gallery
+%d image(s) were added to the list
