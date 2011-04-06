@@ -3,7 +3,7 @@ Contributors: flash gallery
 Donate link: http://1plugin.com/
 Tags: admin, album, flash, gallery, image, images, media, page, photo, photos, picture, pictures, plugin, portfolio, post, posts, presentation, slideshow, media, photo albums, photo gallery, image gallery, widget
 Requires at least: 2.9
-Tested up to: 3.1.0
+Tested up to: 3.1.1
 Stable tag: 1.0.7
 
 1 Flash Gallery is a Photo Gallery with slideshow function, many skins and powerfull admin to manage your image gallery without any program skills
