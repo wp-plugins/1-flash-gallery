@@ -2,7 +2,7 @@
 /*
 Plugin Name: 1 Flash Gallery
 Plugin URI: http://1plugin.com/
-Description: 1 Flash Gallery is a Photo Gallery with slideshow function, many skins and powerfull admin to manage your image gallery without any program skills
+Description: 1 Flash Gallery is a Photo Gallery with slideshow function, many skins and powerfull admin to manage your image galleries without any program skills
 Version: 1.2.1
 Author: 1plugin.com
 Author URI: http://1plugin.com/
@@ -194,8 +194,9 @@ $version = get_option('fgallery_db_version', 0);
 	}
 	
 	update_option("fgallery_db_version", FGALLERY_VERSION);
+	
+	return true;
 }
-
 
 // uninstall script
 function fgallery_uninstall() {
