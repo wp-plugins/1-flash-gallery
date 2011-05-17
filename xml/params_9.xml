@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gallery>
+  <params>
+	<group name="gallery" title="Gallery">
+		<p name="alpha" title="Opacity" control="slider" default="0.5" values="0..1:0.1" />
+		<p name="color" title="Color" control="color" default="0x000000" />
+		<p name="photo" title="Photo" control="text" default="" />
+	</group>
+	<group name="slideshow" title="Slideshow">
+		<p name="enable" title="Auto Start" control="checkbox" default="0" values="1" />
+		<p name="delay" title="Delay, sec." control="slider"  default="2" values="0..20:1"/>
+		<p name="music" title="Music" control="checkbox" default="0" values="1" />
+		<p name="musicPath" title="Path to music" control="text" default="" />
+	</group>
+	<group name="scroller" title="Scroller">
+		<p name="visible" title="Enable" control="checkbox" default="0" values="1" />
+		<p name="width" title="Width" control="text" default="400" class="numeric" />
+	</group>
+	<group name="preview" title="Preview">
+		<p name="color" title="Color" control="color" default="0x000000" />
+		<p name="scaleEffect" title="Scale Effect" control="select" default="spin" values="scale,slide,spin" />
+		<p name="reflection" title="Reflection" control="checkbox" default="0" values="1" />
+		<p name="reflectionAlpha" title="Reflection Opacity" control="slider" default="0.5" values="0..1:0.1" />
+		<p name="reflectionDistance" title="Reflection Distance" control="text" default="10" class="numeric" />
+		<p name="reflectionGradientColorStart" title="Reflection Gradient Color Start" control="color" default="0x000000" />
+		<p name="reflectionGradientColorFinish" title="Reflection Gradient Color Finish" control="color" default="0xffffff" />
+		<p name="borderWidth" title="Border Width" control="slider" default="3" values="1..10:1" />
+		<p name="borderColor" title="Border Color" control="color" default="0xfedcba" />
+		<p name="borderEclipse" title="Border Corner Radius" control="text" default="5" class="numeric" />
+		<p name="borderAlpha" title="Border Opacity" control="slider" default="0.5" values="0..1:0.1" />
+		<p name="borderPhotoWidth" title="Border Photo Width" control="text" default="10" class="numeric" />
+		<p name="borderPhotoColor" title="Border Photo Color" control="color" default="0xfedcba" />
+		<p name="borderPhotoAlpha" title="Border Photo Alpha" control="slider" default="0.5" values="0..1:0.1" />
+		<p name="backgroundPhoto" title="Background Photo" control="text" default="" />
+		<p name="alpha" title="Opacity" control="slider" default="0.5" values="0..1:0.1" />
+		<p name="width" title="Width" control="text" default="255" class="numeric" />
+		<p name="height" title="Height" control="text" default="180" class="numeric" />
+		<p name="distanceX" title="Distance X" control="text" default="188" class="numeric" />
+		<p name="distanceY" title="Distance Y" control="text" default="188" class="numeric" />
+		<p name="distanceZ" title="Distance Z" control="text" default="180" class="numeric" />
+		<p name="rotation" title="Rotation" control="slider" default="0" values="0..360:10" />
+		<p name="cornerRadius" title="Corner Radius" control="slider" default="0" values="0..90:5" />
+		<p name="backgroundColor" title="Background Color" control="color" default="0x000000" />
+		<p name="isURL" title="Image is URL" control="checkbox" default="0" values="1" />
+		<p name="scaleSmall" title="Scale Preview" control="select" default="fit" values="fit,fill,noScale" />
+		<p name="scalePhoto" title="Scale Photo" control="select" default="noScale" values="fit,fill,noScale" />
+		<p name="target" title="Target" control="select" default="_self" values="_self,_blank" />
+	</group>
+	<group name="caption" title="Caption">
+		<p name="enable" title="Enable" control="checkbox" default="0" values="1" />
+		<p name="font" title="Font" control="select" default="Tahoma" values="Tahoma" />
+		<p name="visible" title="Visibility" control="select" default="always" values="always,never,onHover" />
+		<p name="align" title="Align" control="select" default="bottom" values="bottom,top" />
+		<p name="fontSize" title="Font Size" control="slider" default="14" values="8..26:1" />
+		<p name="bold" title="Bold Font" control="checkbox" default="0" values="1" />
+		<p name="textColor" title="Color" control="Color" default="0x000000" />
+		<p name="background" title="Background" control="checkbox" default="0" values="1" />
+		<p name="backgroundColor" title="Background Color" control="color" default="0xffffff" />
+		<p name="backgroundAlpha" title="Background Alpha" control="slider" default="0.7" values="0..1:0.1" />
+	</group>
+	<group name="tool_tip" title="Navigation">
+		<p name="color" title="Color" control="color" default="0x000000" />
+		<p name="alpha" title="Opacity" control="slider" default="0.7" values="0..1:0.1" />
+		<p name="max_width" title="Width" control="text" default="180" />
+		<p name="font" title="Font" control="select" default="Tahoma" values="Tahoma" />
+		<p name="font_color" title="Font Color" control="color" default="0xffffff" />
+		<p name="font_size" title="Font Size" control="slider" default="14" values="8..26:1" />
+		<p name="time_show" title="Time Show" control="slider" deafult="0.5" values="0.1..2:0.1" />
+	</group>
+  </params>
+</gallery>
