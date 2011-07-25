@@ -32,6 +32,9 @@ Features:
 * Translation in to: German, Spanish, Italian
 * Insert gallery in to the theme with [short code](http://1plugin.com/faq/100 "Insert Photo Gallery in to Wordpress Theme")
 
+Version 1.5.3:
+
+* Fixed bugs in the [PFlipping Book](http://1plugin.com/galleries/kranjk "Flipping Book") skin
 
 == Change Log ==
 
