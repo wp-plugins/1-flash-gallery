@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gallery>
+  <params>
+    <group name="slideshow" title="Slideshow">
+      <p name="showEnable" title="Auto Start" control="checkbox"  default="0" values="1" />
+      <p name="showDelay" title="Delay, sec." control="slider"  default="2" values="0..20:1"/>
+      <p name="musicPath" title="Path to music" control="text" default="" />
+      <p name="imageWidth" title="Image Width" control="text" default="" class="numeric" />
+      <p name="imageHeight" title="Image Height" control="text" default="" class="numeric" />
+      <p name="backgroundType" title="Background Type" control="select" default="color" values="color,image" />
+      <p name="backgroundPath" title="Background Image" control="text" default="" values="" />
+      <p name="backgroundAlpha" title="Background Opacity" control="slider" default="0.7" values="0..1:0.1" />
+      <p name="backgroundColor" title="Background Color" control="color" defualt="0x000000" />
+      <p name="fullScreenEnable" title="Fullscreen Enable" control="checkbox" defualt="0" values="1" />
+      <p name="dimmingBackground" title="Blackout Background On Big Photo" control="checkbox"  default="0" values="1" />
+      <p name="target" title="Links Target" control="select" default="_blank" values="_blank,_self" />
+    </group> 
+
+    <group name="preview" title="Preview">
+      <p name="width" title="Preview Width" control="text" default="200" class="numeric" />
+      <p name="height" title="Preview Height" control="text" default="250" class="numeric" />
+      <p name="scale" title="Scale Mode" control="select" default="fit" values="fit, fill, noscale"/>
+      <p name="cornerRadius" title="Corner Radius" control="slider" default="50" values="0..30:1"/>
+      <p name="borderColor" title="Border Color" control="color" default="0xffffff"/>
+      <p name="borderThickness" title="Border Width" control="slider" default="4" values="0..20:1" />
+      <p name="scatter" title="Scatter Images" control="slider" default="50" values="1..100:1"/>
+      <p name="titlePosition" title="Title Position" control="select" default="bottom" values="bottom,top,none" />
+      <p name="titleAlign" title="Title Alignment" control="select" default="left" values="left,right,center" />
+      <p name="titleSize" title="Title Font Size" control="slider" default="20" values="8..24:1" />
+      <p name="titleUseEmbedFont" title="Use Embed Font" control="checkbox" default="0" values="1" />
+      <p name="titleFont" title="Title Font" control="select" default="Tahoma" values="Tahoma" />
+      <p name="titleColor" title="Title Font Color" control="color" default="0x000000" />
+      <p name="titleBold" title="Bold Font" control="checkbox" default="0" values="1" />
+      <p name="shadowDistance" title="Shadow Distance" control="slider" default="0" values="0..15:1" />
+      <p name="shadowSize" title="Shadow Size" control="slider" default="10" values="0..15:1" />
+      <p name="shadowColor" title="Shadow Color" control="color" default="0x000000" />
+      <p name="shadowAngle" title="Shadow Angle" control="text" default="0" class="numeric" />
+      <p name="preloaderColor" title="Preloader Color" control="color" default="0x000000" />
+    </group>
+    
+    <group name="navigation" title="Navigation">
+      <p name="flipping" title="Flipping" control="select" default="button" values="button,mouse" />
+      <p name="buttons" title="Buttons" control="checkbox" default="0" values="1" />
+      <p name="buttonsColor" title="Buttons Color" control="color" default="0x000000" />
+      <p name="buttonsBackColor" title="Buttons Background Color" control="color" default="0xffffff" />
+      <p name="buttonsAlpha" title="Buttons Opacity" control="slider" default="0.7" values="0..1:0.1" />
+    </group>
+  </params>
+</gallery>

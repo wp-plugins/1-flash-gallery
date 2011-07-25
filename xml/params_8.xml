@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gallery>
+  <params>
+	<group name="slideshow" title="Slideshow">
+		<p name="enable" title="Auto Start" control="checkbox" default="0" values="1" />
+		<p name="stopByClick" title="Stop By Click" control="checkbox"  default="0" values="1" />
+		<p name="delay" title="Delay, sec." control="slider"  default="2" values="0..20:1"/>
+		<p name="musicPath" title="Music Path" control="text" default="" values=""/>
+	</group>
+	<group name="main_screen" title="Main">
+		<p name="width" title="Stage Width" control="text" default="400" values="" class="numeric" />
+		<p name="height" title="Stage Height" control="text" default="300" values="" class="numeric" />
+		<p name="shadow" title="Preview Shadow" control="checkbox" default="0" values="1" />
+		<p name="color" title="Background Color" control="color" default="0xffffff" />
+		<p name="time_change_screen" title="Transition Duration" control="slider" default="0.5" values="0.1..1:0.1" />
+		<p name="small_width" title="Preview Width" control="text" default="100" class="numeric" />
+		<p name="small_height" title="Preview Height" control="text" default="100" class="numeric" />
+		<p name="small_color" title="Preview Background Color" control="color" default="0xffffff" />
+		<p name="small_x" title="Preview Horizontal Intend" control="text" default="5" class="numeric" />
+		<p name="small_y" title="Preview Vertical Intend" control="text" default="6" class="numeric" />
+		<p name="time_show_small" title="Small Image Appearance Time" control="slider" default="0.5" values="0.1..1:0.1" />
+		<p name="resizable_small" title="Scale Mode" control="select" default="fit" values="fit, fill, noScale" />
+		<p name="blackout_small" title="Blackout Preview" control="checkbox" default="0" values="1" />
+		<p name="blackout_alpha" title="Blackout Preview Opacity" control="slider" default="0.5" values="0.1..1:0.1" />
+		<p name="frame_small_size" title="Preview Border Size" control="text" default="2" class="numeric" />
+		<p name="frame_small_alpha" title="Preview Border Opacity" control="slider" default="0.5" values="0.1..1:0.1" />
+		<p name="frame_small_color" title="Preview Border Color" control="color" default="0xffffff" />
+		<p name="frame_big_size" title="Photo Border Size" control="text" default="2" class="numeric" />
+		<p name="frame_big_alpha" title="Photo Border Opacity" control="slider" default="0.5" values="0.1..1:0.1" />
+		<p name="frame_big_color" title="Photo Border Color" control="color" default="0xffffff" />
+		<p name="color_arrow" title="Arrow Color" control="color" default="0xffffff" />
+		<p name="arrow_alpha" title="Arrow Opacity" control="slider" default="0.5" values="0.1..1:0.1" />
+		<p name="target" title="Open Link Target" control="select" default="_self" values="_self,_blank" />
+	</group>
+   <group name="big_foto" title="Big Photo">
+      <p name="color" title="Background Color" control="color" default="0xffffff" />
+	  <p name="background" title="Background Image" control="text" deafult="" />
+      <p name="text_color" title="Text Color" control="color" default="0xffffff" />
+	  <p name="text_background_color" title="Text Background Color" control="color" default="0x000000" />
+	  <p name="text_background_height" title="Text Backgroung Height" control="text" default="40" class="numeric" />
+	  <p name="text_background_alpha" title="Text Background Opacity" control="slider" default="0.5" values="0.1..1:0.1" />
+	  <p name="font" title="Font" control="select" default="Tahoma" values="Tahoma" />
+	  <p name="font_size" title="Text Size" control="slider" default="14" values="8..30:1" />
+	  <p name="font_bold" title="Bold Text" control="checkbox" default="0" values="1" />
+	  <p name="time_open_photo" title="Appearance Duration" control="slider" default="0.1" values="0.1..1:0.1" />
+	  <p name="time_change_alpha_photo" title="Transition Duration" control="slider" default="0.1" values="0.1..2:0.1" />
+	  <p name="time_change_photo" title="Resize Duration" control="slider" default="1" values="0.1..2:0.1" />
+	  <p name="effect_change_photo" title="Transition Effect" control="select" default="easeInQuad" values="linear, easeInSine, easeInOutSine, easeInQuad, easeOutQuad, easeInOutQuad, easeInCubic, easeOutCubic, easeInOutCubic, easeInQuart, easeOutQuart, easeInOutQuart, easeInQuint, easeOutQuint, easeInOutQuint, easeInExpo, easeOutExpo, easeInOutExpo,easeInCirc, easeOutCirc, easeInOutCirc, easeInElastic, easeOutElastic, easeInOutElastic, easeInBack, easeOutBack, easeInOutBack, easeInBounce, easeOutBounce, easeInOutBounce" />
+	  <p name="time_show_text" title="Caption Appearance Duration" control="slider" default="1" values="0.1..2:0.1" />
+	  <p name="time_show_arrow" title="Controls Appearance Duration" control="slider" default="1" values="0.1..2:0.1" />
+	  <p name="color_arrow" title="Arrow Color" control="color" default="0xffffff" />
+	  <p name="arrow_alpha" title="Arrow Opacity" control="slider" default="0.5" values="0.1..1:0.1" />
+	  <p name="scalePhoto" title="Scale Mode" control="select" default="fit" values="fit,fill,noScale" />
+	</group>
+	<group name="slideshow_bar" title="Controls">
+		<p name="enable" title="Enable" control="checkbox" default="0" values="1" />
+		<p name="width" title="Width" control="text" default="200" values="" class="numeric" />
+		<p name="height" title="Height" control="text" default="30" values="" class="numeric" />
+		<p name="x" title="X Position" control="text" default="50" values="" class="numeric" />
+		<p name="y" title="Y Position" control="text" default="10" values="" class="numeric" />
+		<p name="color" title="Background Color" control="color" default="0xffffff" />
+		<p name="color2" title="Background Color 2" control="color" default="0xffffff" />
+		<p name="alpha" title="Opacity" control="slider" default="0.5" values="0.1..1:0.1" />
+		<p name="eclipse" title="Corner Radius" control="text" default="90" values="" />
+		<p name="select_albums" title="Select Albums" control="checkbox" default="0" values="1" />
+		<p name="arrow_left" title="Previous Button" control="checkbox" default="0" values="1" />
+		<p name="play_slideshow" title="Play Button" control="checkbox" default="0" values="1" />
+		<p name="arrow_right" title="Next Button" control="checkbox" default="0" values="1" />
+		<p name="full_screen" title="Full Screen Button" control="checkbox" default="0" values="1" />
+		<p name="buttons_alpha" title="Buttons Opacity" control="slider" default="0.5" values="0.1..1:0.1" />
+		<p name="buttons_space" title="Buttons Indent" control="text" default="35" values="" class="numeric" />
+		<p name="select_albums_color" title="Select Albums Background" control="color" default="0x000000" values="" />
+		<p name="select_albums_eclipse" title="Select Albums Corner Radius" control="text" default="10" values="" class="numeric" />
+		<p name="select_albums_alpha" title="Select Albums Opacity" control="slider" default="0.5" values="0.1..1:0.1" />
+		<p name="select_albums_font" title="Select Albums Font" control="select" default="Tahoma" values="Tahoma" />
+		<p name="select_albums_font_size" title="Select Albums Font Size" control="slider" default="14" values="8..30:1" />
+		<p name="select_albums_font_color" title="Select Albums Font Color" control="color" default="0x000000" values="" />
+		<p name="select_albums_font_color_over" title="Select Albums Font Color OnHover" control="color" default="0x000000" values="" />
+		<p name="select_albums_space_text" title="Select Albums Line Height" control="text" default="10" values="" class="numeric" />
+		<p name="select_albums_time_show" title="Select Albums Time Show" control="slider" default="1" values="0.5..2:0.1" />
+		<p name="select_albums_time_hide" title="Select Albums Time Hide" control="slider" default="1" values="0.5..2:0.1" />
+	</group>
+	<group name="tool_tip" title="Caption">
+		<p name="color" title="Background Color" control="color" default="0xffffff" />
+		<p name="alpha" title="Background Opacity" control="slider" default="0.5" values="0.1..1:0.1" />
+		<p name="max_width" title="Width" control="text" default="180" values="" class="numeric" />
+		<p name="font" title="Font" control="select" default="Tahoma" values="Tahoma" />
+		<p name="font_size" title="Font Size" control="slider" default="14" values="8..30:1" />
+		<p name="font_color" title="Font Color" control="color" default="0x000000" values="" />
+		<p name="time_show" title="Time Show" control="slider" default="1" values="0.5..2:0.1" />
+	</group>
+  </params>
+</gallery>
