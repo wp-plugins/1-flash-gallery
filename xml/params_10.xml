@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gallery>
+  <params>
+	<group name="slideshow" title="Slideshow">
+		<p name="backgroundColor" title="Background Color" control="color" default="0xFFFFFF" />
+		<p name="logo" title="Logo" control="text"  default="" values=""/>
+		<p name="time" title="Delay" control="slider"  default="5000" values="0..10000:1000"/>
+		<p name="musicPath" title="Path to music" control="text" default="" />
+		<p name="useEmbedFont" title="Use Embed Font" control="checkbox" default="0" values="1" />
+		<p name="target" title="Links Target" control="select" default="_blank" values="_blank,_self" />
+		<p name="musicPath" title="Path to music" control="text" default="" />
+	</group>
+	<group name="navigation" title="Navigation">
+		<p name="enable" title="Enable" control="checkbox" default="0" values="1" />
+		<p name="indent" title="Indent" control="text" default="20" values="" class="numeric" />
+		<p name="home" title="Home" control="checkbox" default="0" values="1" />
+		<p name="itemFont" title="Font" control="select" default="Arial" values="Arial,Tahoma" />
+		<p name="itemSize" title="Font Size" control="slider" default="11" values="8..24:1" />
+		<p name="itemBold" title="Bold Font" control="checkbox" default="0" values="1" />
+		<p name="itemColorLowerText" title="Lower Text Color" control="color" default="0x1C6CC4" />
+		<p name="itemColorUpperText" title="Upper Text Color" control="color" default="0x1C6CC4" />
+		<p name="itemColorLowerField" title="Lower Field Color" control="color" default="0x1C6CC4" />
+		<p name="itemColorUpperField" title="Lower Text Color" control="color" default="0x1C6CC4" />
+	</group>
+	<group name="scroller" title="Scroller">
+		<p name="position" title="Position" control="select" default="left" values="left,right,none" />
+		<p name="numberColumns" title="Number of Columns" control="slider" default="2" values="1..5:1" />
+		<p name="itemWidth" title="Item Width" control="text" default="100" class="numeric" />
+		<p name="itemHeight" title="Item Height" control="text" default="83" class="numeric" />
+		<p name="itemMotion" title="Item Motion" control="checkbox" default="0" values="1" />
+		<p name="itemScale" title="Scale Mode" control="select" default="fit" values="fit,fill,noScale" />
+		<p name="itemBorderColor" title="Item Border Color" control="color" default="0x1C6CC4" />
+		<p name="itemBorderThickness" title="Item Border Thickness" control="slider" default="10" values="0..15:1" />
+		<p name="itemBorderAlpha" title="Item Border Opacity" control="slider" default="0.3" values="0..1:0.1" />
+		<p name="itemBorderTime" title="Item Border Time" control="slider" default="13" values="0..15:1" />
+		<p name="itemWaveColor" title="Item Wave Color" control="color" default="0x1C6CC4" />
+		<p name="itemWaveAlpha" title="Item Wave Opacity" control="slider" default="0.3" values="0..1:0.1" />
+		<p name="itemWaveTime" title="Item Wave Duration" control="slider" default="120" values="50..150:10" />
+		<p name="itemTitlePosition" title="Item Title Position" control="select" default="followMouse" values="followMouse,top,bottom,none" />
+		<p name="itemTitleFont" title="Item Title Font" control="select" default="Tahoma" values="Tahoma" />
+		<p name="itemTitleSize" title="Item Title Font Size" control="slider" default="11" values="8..24:1" />
+		<p name="itemTitleBold" title="Item Title Bold Font" control="checkbox" default="0" values="1" />
+		<p name="itemTitleColor" title="Item Title Font Color" control="color" default="0x000000" />
+		<p name="itemTitleColorBack" title="Item Title Background Color" control="color" default="0xffffff" />
+		<p name="itemTitleAlphaBack" title="Item Title Background Opacity" control="slider" default="0.3" values="0..1:0.1" />
+		<p name="navigationEnable" title="Navigation Enable" control="checkbox" default="0" values="1" />
+		<p name="navigationColorButton" title="Navigation Button Color" control="color" default="0xFFFFFF" />
+		<p name="navigationColorRect" title="Navigation Area Color" control="color" default="0x000000" />
+	</group>
+	<group name="preview" title="Preview">
+		<p name="width" title="Width" control="text" default="255" class="numeric" />
+		<p name="height" title="Height" control="text" default="180" class="numeric" />
+		<p name="scale" title="Scale" control="select" default="fit" values="fit,fill,noScale" />
+		<p name="preloaderColor" title="Preloader Color" control="color" default="0x000000" />
+		<p name="borderThickness" title="Border Width" control="slider" default="3" values="1..10:1" />
+		<p name="borderColor" title="Border Color" control="color" default="0xfedcba" />
+		<p name="borderAlpha" title="Border Opacity" control="slider" default="0.5" values="0..1:0.1" />
+		<p name="borderTime" title="Border Time" control="slider" default="7" values="5..15:1" />
+		<p name="captionShow" title="Show Caption" control="select" default="none" values="allTime,onMouseOver,none" />
+		<p name="captionFont" title="Caption Font" control="select" default="Tahoma" values="Tahoma" />
+		<p name="captionSize" title="Caption Font Size" control="slider" default="11" values="8..24:1" />
+		<p name="captionBold" title="Caption Bold Font" control="checkbox" default="0" values="1" />
+		<p name="captionColor" title="Caption Font Color" control="color" default="0x000000" />
+		<p name="captionColorBack" title="Caption Background Color" control="color" default="0xffffff" />
+		<p name="captionAlphaBack" title="Caption Background Opacity" control="slider" default="0.3" values="0..1:0.1" />
+		<p name="barEnable" title="Bar Enable" control="checkbox" default="0" values="1" />
+		<p name="barColor" title="Bar Color" control="color" default="0x000000" />
+		<p name="barFont" title="Bar Font" control="select" default="Tahoma" values="Tahoma" />
+		<p name="barSize" title="Bar Font Size" control="slider" default="11" values="8..24:1" />
+		<p name="barBold" title="Bar Bold Font" control="checkbox" default="0" values="1" />
+		<p name="barColorText" title="Bar Text Color" control="color" default="0x000000" />
+		<p name="barColorButton" title="Bar Button Color" control="color" default="0x000000" />
+		<p name="navigationMode" title="Navigation Mode" control="select" default="button" values="mouse,button,none" />
+		<p name="navigationButtonMode" title="Navigation Button Mode" control="select" default="onMouseOver" values="onMouseOver,allTime" />
+		<p name="navigationButtonColorBorder" title="Navigation Button Border Color" control="color" default="0x000000" />
+		<p name="navigationButtonColorBack" title="Navigation Button Background Color" control="color" default="0xFFFFFF" />
+		<p name="navigationButtonColorRect" title="Navigation Button Rectangle Color" control="color" default="0x000000" />
+		<p name="navigationButtonThickness" title="Navigation Button Thickness" control="slider" default="5" values="0..15:1" />
+		<p name="navigationButtonSize" title="Navigation Button Size" control="text" default="35" class="numeric" />
+		<p name="navigationButtonAlpha" title="Navigation Button Opacity" control="slider" default="0.5" values="0..1:0.1" />
+	</group>
+  </params>
+</gallery>
