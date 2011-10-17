@@ -1,0 +1,96 @@
+.pg-scroller {
+	position: absolute;
+	left: 0;
+	z-index: 2;
+}
+
+.pg-scroller-bg {
+	position: absolute;
+	left: 0;
+	top: 0;
+	background: #000000;
+	opacity: 0.5;
+	filter: alpha(opacity = 50);
+}
+
+.pg-scroller-items {
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.pg-scroller-items .pg-scroller-item {
+	position: relative;
+	cursor: pointer;
+	float: left;
+}
+
+.pg-scroller-items .pg-scroller-item .pg-scroller-item-disabler {
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 5;
+	background: #555555;
+	opacity: 0.6;
+	filter: alpha(opacity = 60);
+	height: 100%;
+	width: 100%;
+}
+
+.pg-scroller-items .pg-scroller-item .pg-scroller-item-bg {
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	z-index: 3;
+}
+
+.pg-scroller-items IMG {
+	display: block;
+	position: absolute;
+	z-index: 4;
+}
+
+.pg-image {
+	position: relative;
+	float: left;
+}
+
+.pg-image IMG {
+	display: block;
+}
+
+.pg-image .pg-image-item {
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 1;
+}
+
+.pg-caption {
+	position: absolute;
+	right: 0;
+	background: #000000;
+	opacity: 0.5;
+	filter: alpha(opacity = 50);
+	z-index: 2;
+}
+
+.pg-caption-text {
+	position: absolute;
+	right: 0;
+	z-index: 3;
+	color: #ffffff;
+	font-family: Verdana;
+}
+
+.pg-caption-text P {
+	margin: 0;
+	padding: 0;
+}
+
+.pg-caption-text A {
+	color: #ffffff;
+	text-decoration: none;
+}
