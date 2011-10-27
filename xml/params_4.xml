@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gallery>
+  <properties>
+    <folders>0</folders>
+    <source>local</source>
+  </properties>
+  <params>
+    <group name="slideshow" title="Slideshow">
+		<p name="showEnable" title="Auto Start" control="checkbox"  default="0" values="1" />
+		<p name="showDelay" title="Delay, sec." control="slider"  default="2" values="0..20:1"/>
+		<p name="musicPath" title="Path to music" control="text" default="" />
+		<p name="fullscreenEnable" title="Fullscreen" control="checkbox" default="0" values="1" />
+		<p name="backgroundType" title="Background Type" control="select" default="color" values="color,image" />
+		<p name="backgroundPath" title="Background Image" control="text" default="" values="" />
+		<p name="backgroundAlpha" title="Background Opacity" control="slider" default="0.7" values="0..1:0.1" />
+		<p name="backgroundColor" title="Background Color" control="color" default="0x000000" />
+		<p name="useEmbedFont" title="Use Embed Font" control="checkbox" default="0" values="1" />
+		<p name="theme" title="Theme" control="select" default="black" values="white,black,blue,red,green" />
+		<p name="target" title="URL link target" control="select" default="_blank" values="_blank,_self" />
+	</group>
+	<group name="scroller" title="Scroller">
+		<p name="fogEnable" title="Fog Enable" control="checkbox"  default="0" values="1" />
+		<p name="fogWidth" title="Fog Width" control="text"  default="50" class="numeric" />
+		<p name="xItemDistance" title="Horizontal Margin" control="text"  default="50" class="numeric" />
+		<p name="yItemDistance" title="Vertical Width" control="text"  default="50" class="numeric" />
+		<p name="scrollingDirection" title="Scrolling Direction" control="select" default="top" values="top,left" />
+		<p name="scrollingSpeed" title="Scrolling Speed" control="slider" default="75" values="10..500:10" />
+	</group>
+
+    <group name="item" title="Preview">
+		<p name="width" title="Width" control="text" default="80" class="numeric" />
+		<p name="height" title="Height" control="text" default="40" class="numeric" />
+		<p name="scale" title="Scale Mode" control="select" default="fit" values="fit,fill,noscale"/>
+		<p name="cornerRadius" title="Corner Radius" control="slider" default="5" values="1..50:1" />
+		<p name="borderThickness" title="Border Width" control="slider" default="2" values="1..10:1" />
+		<p name="borderColor" title="Border Color" control="color" defualt="0x000000" />
+		<p name="titlePosition" title="Title Position" control="select" default="followMouse" values="followMouse,top,bottom,none" />
+		<p name="titleAlign" title="Title Align" control="select" default="left" values="left,center,right" />
+		<p name="titleFont" title="Title Font" control="select" default="Verdana" values="Verdana" />
+		<p name="titleSize" title="Title Size" control="slider" default="13" values="6..25:1" />
+		<p name="titleFontColor" title="Title Color" control="color" default="0xffffff" />
+		<p name="titleBackgroundColor" title="Title Background Color" control="color" default="0x000000" />
+		<p name="titleBold" title="Title Bold Text" control="checkbox"  default="0" values="1" />
+		<p name="shadowDistance" title="Shadow Distance" control="text" default="0" class="numeric" />
+		<p name="shadowSize" title="Shadow Width" control="slider" default="10" values="0..50:5" />
+		<p name="shadowColor" title="Shadow Color" control="color" default="0xffffff" />
+		<p name="shadowAngle" title="Shadow Angle" control="slider" default="0" values="0..180:5" />
+		<p name="selectTintEnable" title="Select Tint" control="checkbox" default="0" values="1"/>
+		<p name="preloaderEnable" title="Preloader" control="checkbox" default="0" values="1"/>
+		<p name="preloaderColor" title="Preloader Color" control="color" default="0xffffff" />
+    </group>
+
+	<group name="navigation" title="Controls">
+                <p name="enable" title="Enable" control="checkbox" default="0" values="1" />
+		<p name="albumIconEnable" title="Show Album Icon" control="checkbox" default="0" values="1" />
+		<p name="align" title="Align" control="select" default="left" values="right,center,left" />
+		<p name="name" title="Navigation Box Text" control="text" default="" values="" />
+		<p name="colorBackground" title="Background Color" control="color" defualt="0x000000" />
+		<p name="colorButton" title="Button Color" control="color" defualt="0xffffff" />
+	</group>
+
+	<group name="preview" title="Big Photo">
+		<p name="width" title="Width" control="text" default="80" class="numeric" />
+		<p name="height" title="Height" control="text" default="40" class="numeric" />
+		<p name="scale" title="Scale Mode" control="select" default="fit" values="fit, fill, noscale"/>
+		<p name="captionPosition" title="Caption Position" control="select" default="top" values="top,bottom,none" />
+		<p name="captionAlign" title="Caption Align" control="select" default="left" values="left,center,right" />
+		<p name="captionFont" title="Caption Font" control="select" default="Verdana" values="Verdana" />
+		<p name="captionSize" title="Title Size" control="slider" default="15" values="6..25:1" />
+		<p name="captionBold" title="Caption Bold Text" control="checkbox"  default="0" values="1" />
+		<p name="captionColor" title="Caption Font Color" control="color" default="0xffffff" />
+		<p name="captionBackgroundColor" title="Caption Background Color" control="color" default="0x000000" />
+		<p name="dimmingBackgroundEnable" title="Dimming Background" control="checkbox" default="0" values="1" />
+		<p name="linkageEnable" title="Enable URL links" control="checkbox" default="0" values="1" />
+		<p name="buttonsEnable" title="Enable Buttons" control="checkbox" default="0" values="1" />
+	</group>
+</params>
+</gallery>
