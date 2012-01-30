@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gallery>
+  <params>
+        <group name="gallery" title="Settings">
+          <p name="source" title="Images source" control="select" default="local" values="local,flickr,picasa,photobucket" />
+        </group>
+        
+	<group name="image" title="Image">
+	  <p name="linkTarget" title="Link Target" control="select"  default="_blank" values="_blank,_self" />
+	  <p name="imageAsLink" title="Image As Link" control="checkbox"  default="1" values="1" />
+	</group>
+	
+	<group name="slideshow" title="Slideshow">
+	  <p name="auto" title="Auto Start" control="checkbox"  default="0" values="1" />
+	  <p name="time" title="Delay, sec." control="slider"  default="1" values="0..20:1"/>
+	  <p name="sendID" title="Show text under slideshow" control="checkbox"  default="0" values="1" />
+	  <p name="imgOrient" title="Image Orientation" control="select" default="fit" values="fit, fill, noscale"/>
+          <p name="disableBigImage" title="Disable Big Image" control="checkbox"  default="0" values="1" />
+	  <p name="imgAllowScale" title="Aspect Ration" control="checkbox"  default="0" values="1" />
+          <p name="musicPath" title="Music" control="text" default="" values="" type="file" />
+	</group>
+	
+	<group name="background" title="Background">
+	  <p name="showFolders" title="Show Folders" control="checkbox"  default="0" values="1" />
+	  <p name="backgroundColor" title="Background Color" control="color"  default="0x000000" values="" />
+	  <p name="author" title="Author" control="text" default="Custom Author" values="" />
+	  <p name="authorSize" title="Author" control="slider" default="15" values="8..24:1" />
+	  <p name="authorColor" title="Author Color" control="color"  default="0xffffff" values="" />
+	  <p name="fullAuthor" title="Full Author" control="text" default="Custom Copy" values="" />
+	  <p name="setAuthor" title="Set Author" control="checkbox"  default="1" values="1" />
+	  <p name="borderColor" title="Border Color" control="color"  default="0x000000" values="" />
+	  <p name="borderAlpha" title="Border Opacity" control="slider" default="0.4" values="0..1:0.1" />
+	  <p name="copytextsize" title="Copy Text Size" control="slider" default="12" values="0..20:1" />
+	  <p name="copytextcolor" title="Copy Text Color" control="color"  default="0xffffff" values="" />
+	  <p name="frameWidth" title="Width" control="text" default="40" class="numeric" />
+          <p name="backgroundAsImage" title="Background As Image" control="text" default="" values="" type="file" />
+	</group>
+	
+	<group name="navigation" title="Controls">
+	  <p name="albumtextsize" title="Album Text Size" control="slider" default="12" values="8..24:1" />
+	  <p name="albumtextcolor" title="Album Text Color" control="color"  default="0xffffff" values="" />
+	  <p name="visibleElements" title="Visible Elements" control="slider" default="0" values="0..3:1" />
+	</group>
+	
+	<group name="preview" title="Preview">
+	  <p name="scaleFactor" title="Scale" control="slider" default="50" values="0..100:1" />
+	  <p name="overColorStrength" title="Color Strength" control="checkbox"  default="0" values="1" />
+	  <p name="imageSeparator" title="Image Separator" control="slider" default="30" values="0..100:1" />
+	  <p name="imageWidth" title="Image Width" control="text" default="120" class="numeric" />
+	  <p name="imageHeight" title="Image Height" control="text" default="73" class="numeric" />
+	  <p name="overColor" title="Over Color" control="color" default="0xffffff" />
+	  <p name="bordercolor" title="Border Color" control="color" default="0xffffff" />
+	  <p name="bordersize" title="Border Size" control="slider" default="10" values="0..10:1" />
+	  <p name="borderalpha" title="Border Opacity" control="slider" default="0.2" values="0..1:0.1" />
+	  <p name="showtitle" title="Show Title" control="checkbox" default="1" values="1" />
+	  <p name="colsCount" title="Columns" control="text" default="7" class="numeric" />
+	  <p name="rowsCount" title="Rows" control="text" default="11" class="numeric" />
+	</group>
+	
+	<group name="flickr" title="Flickr" type="source">
+	  <p name="searchBy" title="Search By" control="select" default="photos" values="photos,keyword,userID,albumID" />
+	  <p name="userID" title="User ID" control="text" default="" />
+	  <p name="keyword" title="Keyword" control="text" default="" />
+	  <p name="max" title="Max Photos Number" control="text" class="numeric" default="20" />
+	  <p name="albumID" title="Album ID" control="text" class="numeric" />
+	</group>
+	
+	<group name="picasa" title="Picasa" type="source">
+	  <p name="searchBy" title="Search By" control="select" default="photos" values="photos,keyword,userID,albumID" />
+	  <p name="userName" title="User Name" control="text" default="" />
+	  <p name="keyword" title="Keyword" control="text" default="" />
+	  <p name="max" title="Max Photos Number" control="text" class="numeric" default="20" />
+	  <p name="albumID" title="Album ID" control="text" class="numeric" default="" />
+	  <p name="albumName" title="Album Name" control="text" default="" />
+	</group>
+	
+	<group name="photobucket" title="Photobucket" type="source">
+	  <p name="searchString" title="Search" control="text" default="" />
+	  <p name="max" title="Max Photos Number" control="text" class="numeric" default="20" />
+	</group>
+</params>
+</gallery>

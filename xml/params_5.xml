@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gallery>
+  <params>
+            
+    <group name="gallery" title="Settings">
+       <p name="source" title="Images source" control="select" default="local" values="local,flickr,picasa,photobucket" />
+       <p name="type" title="Gallery Type" control="select" default="byFolder" values="byFolder,flat" />
+    </group>
+    
+    <group name="slideshow" title="Slideshow">
+      <p name="showEnable" title="Auto Start" control="checkbox"  default="1" values="1" />
+      <p name="autostartSlideshow" title="Auto Start" control="checkbox"  default="0" values="1"/>
+      <p name="showDelay" title="Delay, sec." control="slider"  default="5" values="0..20:1"/>
+      <p name="imageWidth" title="Image Width" control="text" default="550" class="numeric" />
+      <p name="imageHeight" title="Image Height" control="text" default="400" class="numeric" />
+      <p name="backgroundType" title="Background Type" control="select" default="color" values="color,image" />
+      <p name="backgroundAlpha" title="Background Opacity" control="slider" default="1" values="0..1:0.1" />
+      <p name="backgroundColor" title="Background Color" control="color" default="0x31AAEE" />
+      <p name="fullScreenEnable" title="Fullscreen Enable" control="checkbox" default="1" values="1" />
+      <p name="dimmingBackground" title="Blackout Background On Big Photo" control="checkbox"  default="1" values="1" />
+      <p name="stopMusicWhenShowStop" title="Stop Music When Show Stop" control="checkbox" default="0" values="1" />      
+      <p name="musicPath" title="Path to music" control="text" default="" type="file" />
+      <p name="backgroundPath" title="Background Image" control="text" default="" values="" type="file" />
+      <p name="sendID" title="Show text under slideshow" control="checkbox" default="0" values="1" />
+    </group> 
+
+    <group name="image" title="Image">
+      <p name="width" title="Preview Width" control="text" default="430" class="numeric" />
+      <p name="height" title="Preview Height" control="text" default="300" class="numeric" />
+      <p name="scale" title="Scale Mode" control="select" default="fit" values="fit, fill, noscale"/>
+      <p name="cornerRadius" title="Corner Radius" control="slider" default="25" values="0..30:1"/>
+      <p name="borderColor" title="Border Color" control="color" default="0x000000"/>
+      <p name="borderThickness" title="Border Width" control="slider" default="4" values="0..20:1" />
+      <p name="borderAlpha" title="Border Opacity" control="slider" default="1" values="0..1:0.1" />
+      <p name="scatter" title="Scatter Images" control="slider" default="50" values="1..100:1"/>
+      <p name="titlePosition" title="Title Position" control="select" default="bottom" values="bottom,top,none" />
+      <p name="titleAlign" title="Title Alignment" control="select" default="left" values="left,right,center" />
+      <p name="titleSize" title="Title Font Size" control="slider" default="20" values="8..24:1" />
+      <p name="titleUseEmbedFont" title="Use Embed Font" control="checkbox" default="1" values="1" />
+      <p name="titleFont" title="Title Font" control="select" default="Tahoma" values="Tahoma" />
+      <p name="titleColor" title="Title Font Color" control="color" default="0x000000" />
+      <p name="titleBold" title="Bold Font" control="checkbox" default="1" values="1" />
+      <p name="shadowDistance" title="Shadow Distance" control="slider" default="0" values="0..15:1" />
+      <p name="shadowSize" title="Shadow Size" control="slider" default="10" values="0..15:1" />
+      <p name="shadowColor" title="Shadow Color" control="color" default="0x000000" />
+      <p name="shadowAngle" title="Shadow Angle" control="text" default="0" class="numeric" />
+      <p name="preloaderColor" title="Preloader Color" control="color" default="0xff00ff" />
+      <p name="linkTarget" title="Links Target" control="select" default="_blank" values="_blank,_self" />
+      <p name="imageAsLink" title="Image As Link" control="checkbox"  default="0" values="1" />
+    </group>
+    
+    <group name="navigation" title="Navigation">
+      <p name="flipping" title="Flipping" control="select" default="mouse" values="button,mouse" />
+      <p name="buttons" title="Buttons" control="checkbox" default="0" values="1" />
+      <p name="buttonsColor" title="Buttons Color" control="color" default="0x000000" />
+      <p name="buttonsBackColor" title="Buttons Background Color" control="color" default="0xffffff" />
+      <p name="buttonsAlpha" title="Buttons Opacity" control="slider" default="0.7" values="0..1:0.1" />
+    </group>
+    
+    <group name="flickr" title="Flickr" type="source">
+       <p name="searchBy" title="Search By" control="select" default="photos" values="photos,keyword,userID,albumID" />
+       <p name="userID" title="User ID" control="text" default="" />
+       <p name="keyword" title="Keyword" control="text" default="" />
+       <p name="max" title="Max Photos Number" control="text" class="numeric" default="20" />
+       <p name="albumID" title="Album ID" control="text" class="numeric" />
+    </group>
+    
+    <group name="picasa" title="Picasa" type="source">
+       <p name="searchBy" title="Search By" control="select" default="photos" values="photos,keyword,userID,albumID" />
+       <p name="userName" title="User Name" control="text" default="" />
+       <p name="keyword" title="Keyword" control="text" default="" />
+       <p name="max" title="Max Photos Number" control="text" class="numeric" default="20" />
+       <p name="albumID" title="Album ID" control="text" class="numeric" default="" />
+       <p name="albumName" title="Album Name" control="text" default="" />
+    </group>
+    
+    <group name="photobucket" title="Photobucket" type="source">
+       <p name="searchString" title="Search" control="text" default="" />
+       <p name="max" title="Max Photos Number" control="text" class="numeric" default="20" />
+    </group>
+    
+  </params>
+</gallery>

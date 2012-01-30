@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gallery>
+  <params>
+        <group name="gallery" title="Settings">
+          <p name="source" title="Images source" control="select" default="local" values="local,flickr,picasa,photobucket" />
+          <p name="type" title="Gallery Type" control="select" default="byFolder" values="byFolder,flat" />
+        </group>
+        
+	<group name="image" title="Image">
+	  <p name="linkTarget" title="Link Target" control="select"  default="_blank" values="_blank,Self" />
+	  <p name="imageAsLink" title="Image As Link" control="checkbox"  default="0" values="1" />
+	  <p name="color" title="Background Color" control="color" default="0x000000" />
+	  <p name="textColor" title="Text Color" control="color" default="0xffffff" />
+	  <p name="textBackgroundColor" title="Text Background Color" control="color" default="0x000000" />
+	  <p name="textBackgroundHeight" title="Text Backgroung Height" control="text" default="40" class="numeric" />
+	  <p name="textBackgroundAlpha" title="Text Background Opacity" control="slider" default="0.5" values="0.1..1:0.1" />
+	  <p name="font" title="Font" control="select" default="Tahoma" values="Tahoma" />
+	  <p name="fontSize" title="Text Size" control="slider" default="14" values="8..30:1" />
+	  <p name="fontBold" title="Bold Text" control="checkbox" default="0" values="1" />
+	  <p name="timeOpenPhoto" title="Appearance Duration" control="slider" default="1" values="0.1..1:0.1" />
+	  <p name="timeChangeAlphaPhoto" title="Transition Duration" control="slider" default="1" values="0.1..2:0.1" />
+	  <p name="timeChangePhoto" title="Resize Duration" control="slider" default="0.6" values="0.1..2:0.1" />
+          <p name="timeChangeScreen" title="Image Change Duration" control="slider" default="1" values="0.1..2:0.1" />
+	  <p name="timeShowText" title="Caption Appearance Duration" control="slider" default="1" values="0.1..2:0.1" />
+	  <p name="timeShowArrow" title="Controls Appearance Duration" control="slider" default="1" values="0.1..2:0.1" />
+          <p name="timeShowSmall" title="Small Image Appearance Duration" control="slider" default="1" values="0.1..2:0.1" />
+	  <p name="colorArrow" title="Arrow Color" control="color" default="0xffffff" />
+	  <p name="arrowAlpha" title="Arrow Opacity" control="slider" default="1" values="0.1..1:0.1" />
+	  <p name="background" title="Background Image" control="text" deafult="" type="file" />          
+          <p name="scaleMode" title="Scale Mode" control="select" default="noScale" values="fit,fill,noScale" />
+	</group>
+	
+	<group name="background" title="Background">
+	  <p name="type" title="Type" control="select" default="color" values="color,image" />
+	  <p name="alpha" title="Background Opacity" control="slider" default="0.7" values="0..1:0.1" />
+	  <p name="color" title="Background Color" control="color" default="0xffffff" />
+          <p name="src" title="Background Image" control="text" default="" values="" type="file" />
+	</group>
+	
+	<group name="slideshow" title="Slideshow">
+	  <p name="enable" title="Auto Start" control="checkbox" default="1" values="1" />
+	  <p name="stopByClick" title="Stop By Click" control="checkbox"  default="0" values="1" />
+	  <p name="delay" title="Delay, sec." control="slider"  default="2" values="0..20:1"/>
+          <p name="musicPath" title="Music Path" control="text" default="" values="" type="file" />
+          <p name="sendID" title="Show text under slideshow" control="checkbox"  default="1" values="1" />
+	</group>
+	
+	<group name="mainScreen" title="Main">
+	  <p name="width" title="Stage Width" control="text" default="530" values="" class="numeric" />
+	  <p name="height" title="Stage Height" control="text" default="380" values="" class="numeric" />
+	  <p name="shadow" title="Preview Shadow" control="checkbox" default="0" values="1" />
+	  <p name="color" title="Background Color" control="color" default="0xffffff" />
+	  <p name="timeChangeScreen" title="Transition Duration" control="slider" default="1.5" values="0.1..1:0.1" />
+	  <p name="smallWidth" title="Preview Width" control="text" default="170" class="numeric" />
+	  <p name="smallHeight" title="Preview Height" control="text" default="120" class="numeric" />
+	  <p name="smallColor" title="Preview Background Color" control="color" default="0x000000" />
+	  <p name="smallX" title="Preview Horizontal Intend" control="text" default="2" class="numeric" />
+	  <p name="smallY" title="Preview Vertical Intend" control="text" default="2" class="numeric" />
+	  <p name="timeShowSmall" title="Small Image Appearance Time" control="slider" default="0.5" values="0.1..1:0.1" />
+	  <p name="resizableSmall" title="Scale Mode" control="select" default="fit" values="fit, fill, noScale" />
+	  <p name="blackoutSmall" title="Blackout Preview" control="checkbox" default="0" values="1" />
+	  <p name="blackoutAlpha" title="Blackout Preview Opacity" control="slider" default="0.7" values="0.1..1:0.1" />
+	  <p name="frameSmallSize" title="Preview Border Size" control="text" default="2" class="numeric" />
+	  <p name="frameSmallAlpha" title="Preview Border Opacity" control="slider" default="0.5" values="0.1..1:0.1" />
+	  <p name="frameSmallColor" title="Preview Border Color" control="color" default="0x000000" />
+	  <p name="frameBigSize" title="Photo Border Size" control="text" default="5" class="numeric" />
+	  <p name="frameBigAlpha" title="Photo Border Opacity" control="slider" default="0.5" values="0.1..1:0.1" />
+	  <p name="frameBigColor" title="Photo Border Color" control="color" default="0x000000" />
+	  <p name="colorArrow" title="Arrow Color" control="color" default="0xffffff" />
+	  <p name="arrowAlpha" title="Arrow Opacity" control="slider" default="1" values="0.1..1:0.1" />
+	</group>
+	
+	<group name="scroller" title="Scroller">
+	  <p name="enable" title="Enable" control="checkbox" default="1" values="1" />
+	  <p name="width" title="Width" control="text" default="200" values="" class="numeric" />
+	  <p name="height" title="Height" control="text" default="30" values="" class="numeric" />
+	  <p name="x" title="X Position" control="text" default="50" values="" class="numeric" />
+	  <p name="y" title="Y Position" control="text" default="10" values="" class="numeric" />
+	  <p name="color" title="Background Color" control="color" default="0x000000" />
+	  <p name="color2" title="Background Color 2" control="color" default="0x000000" />
+	  <p name="alpha" title="Opacity" control="slider" default="0.9" values="0.1..1:0.1" />
+	  <p name="eclipse" title="Corner Radius" control="text" default="10" values="" />
+	  <p name="showSelectAlbums" title="Select Albums" control="checkbox" default="1" values="1" />
+	  <p name="showArrowLeft" title="Previous Button" control="checkbox" default="1" values="1" />
+	  <p name="hidePlayButton" title="Hide Play Button" control="checkbox" default="0" values="1" />
+	  <p name="showArrowRight" title="Next Button" control="checkbox" default="1" values="1" />
+	  <p name="showFullScreen" title="Full Screen Button" control="checkbox" default="1" values="1" />
+	  <p name="buttonsAlpha" title="Buttons Opacity" control="slider" default="0.8" values="0.1..1:0.1" />
+	  <p name="buttonsSpace" title="Buttons Indent" control="text" default="35" values="" class="numeric" />
+	  <p name="selectAlbumsColor" title="Select Albums Background" control="color" default="0x000000" values="" />
+	  <p name="selectAlbumsEclipse" title="Select Albums Corner Radius" control="text" default="10" values="" class="numeric" />
+	  <p name="selectAlbumsAlpha" title="Select Albums Opacity" control="slider" default="0.8" values="0.1..1:0.1" />
+	  <p name="selectAlbumsFont" title="Select Albums Font" control="select" default="Tahoma" values="Tahoma" />
+	  <p name="selectAlbumsFontSize" title="Select Albums Font Size" control="slider" default="12" values="8..30:1" />
+	  <p name="selectAlbumsFontColor" title="Select Albums Font Color" control="color" default="0xffffff" values="" />
+	  <p name="selectAlbumsFontColorOver" title="Select Albums Font Color OnHover" control="color" default="0xff8a00" values="" />
+	  <p name="selectAlbumsSpaceText" title="Select Albums Line Height" control="text" default="10" values="" class="numeric" />
+	  <p name="selectAlbumsTimeShow" title="Select Albums Time Show" control="slider" default="1" values="0.5..2:0.1" />
+	  <p name="selectAlbumsTimeHide" title="Select Albums Time Hide" control="slider" default="1" values="0.5..2:0.1" />
+	</group>
+	
+	<group name="toolTip" title="Caption">
+	  <p name="color" title="Background Color" control="color" default="0x000000" />
+	  <p name="alpha" title="Background Opacity" control="slider" default="0.7" values="0.1..1:0.1" />
+	  <p name="maxWidth" title="Width" control="text" default="180" values="" class="numeric" />
+	  <p name="font" title="Font" control="select" default="Tahoma" values="Tahoma" />
+	  <p name="fontSize" title="Font Size" control="slider" default="14" values="8..30:1" />
+	  <p name="fontColor" title="Font Color" control="color" default="0xffffff" values="" />
+	  <p name="timeShow" title="Time Show" control="slider" default="0.5" values="0.5..2:0.1" />
+	</group>
+	
+	<group name="flickr" title="Flickr" type="source">
+	  <p name="searchBy" title="Search By" control="select" default="photos" values="photos,keyword,userID,albumID" />
+	  <p name="userID" title="User ID" control="text" default="" />
+	  <p name="keyword" title="Keyword" control="text" default="" />
+	  <p name="max" title="Max Photos Number" control="text" class="numeric" default="20" />
+	  <p name="albumID" title="Album ID" control="text" class="numeric" />
+	</group>
+	
+	<group name="picasa" title="Picasa" type="source">
+	  <p name="searchBy" title="Search By" control="select" default="photos" values="photos,keyword,userID,albumID" />
+	  <p name="userName" title="User Name" control="text" default="" />
+	  <p name="keyword" title="Keyword" control="text" default="" />
+	  <p name="max" title="Max Photos Number" control="text" class="numeric" default="20" />
+	  <p name="albumID" title="Album ID" control="text" class="numeric" default="" />
+	  <p name="albumName" title="Album Name" control="text" default="" />
+	</group>
+	
+	<group name="photobucket" title="Photobucket" type="source">
+	  <p name="searchString" title="Search" control="text" default="" />
+	  <p name="max" title="Max Photos Number" control="text" class="numeric" default="20" />
+	</group>
+	
+  </params>
+</gallery>

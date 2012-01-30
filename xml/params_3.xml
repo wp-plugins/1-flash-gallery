@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gallery>
+  <params>          
+    <group name="gallery" title="Settings">
+       <p name="source" title="Images source" control="select" default="local" values="local,flickr,picasa,photobucket" />
+    </group>
+    
+    <group name="slideshow" title="Slideshow">
+      <p name="autostart" title="Auto Start" control="checkbox"  default="1" values="1" />
+      <p name="stopByClick" title="Stop By Click" control="checkbox"  default="1" values="1" />
+      <p name="pauseMusic" title="Pause Music" control="checkbox"  default="1" values="1" />
+      <p name="sendID" title="Show text under slideshow" control="checkbox"  default="1" values="1" />
+      <p name="delay" title="Delay, sec." control="slider"  default="3" values="0..20:1"/>
+      <p name="musicPath" title="Music" control="text" default="" values="" type="file" />
+    </group>
+
+    <group name="image" title="Image">
+      <p name="changeByClick" title="Change By Click" control="checkbox"  default="1" values="1" />
+      <p name="shadow" title="Shadow" control="checkbox"  default="0" values="1" />
+      <p name="shadowColor" title="Shadow Color" control="color"  default="0x000000" />
+      <p name="shadowAlpha" title="Shadow Alpha" control="slider"  default="0.5" values="0..1:0.1" />
+      <p name="shadowBlur" title="Shadow Blur" control="slider"  default="0" values="0..10:1" />
+      <p name="shadowDistance" title="Shadow Distance" control="text"  default="4" values="" class="numeric" />
+      <p name="imageAsLink" title="Image As Link" control="checkbox"  default="0" values="1" />
+      <p name="linkTarget" title="Link Target" control="select"  default="_blank" values="_blank,_self" />
+      <p name="transitionEffect" title="Transition Effect" control="select" default="alpha" values="zoomOut,zoomIn,zoomInOut,blur,ribble,wooble,alpha,shiftLeft,shiftRight,lightening,shift,dissolve,spreading,none"/>
+      <p name="transitionDuration" title="Transition Duration" control="slider" default="1" values="0..5:0.2"/>
+      <p name="scaleMode" title="Scale Mode" control="select" default="noscale" values="fit,fill,noscale"/>
+    </group>
+
+    <group name="background" title="Background">
+      <p name="type" title="Type" control="select" default="color" values="color,image" />
+      <p name="alpha" title="Background Opacity" control="slider" default="0.7" values="0..1:0.1" />
+      <p name="color" title="Background Color" control="color" default="0xdbcefa" />
+      <p name="src" title="Background Image" control="text" default="" values="" type="file" />
+    </group>
+
+    <group name="caption" title="Caption">
+      <p name="align" title="Align" control="select" default="top" values="top,bottom"/>
+      <p name="enable" title="Show Caption" control="checkbox" default="1" values="1" />
+      <p name="fontSize" title="Font Size" control="slider" default="14" values="8..30:1"/>
+      <p name="fontColor" title="Font Color" control="color" default="0xffffff"/>
+      <p name="backgroundColor" title="Background Color" control="color" default="0x000000" />
+      <p name="backgroundAlpha" title="Background Opacity" control="slider" default="0.7" values="0..1:0.1"/>
+    </group>
+
+    <group name="scroller" title="Scroller">
+      <p name="distanceFromBorder" title="Indent" control="text" default="30" class="numeric" />
+      <p name="align" title="Align" control="select" default="top" values="top,bottom" />
+      <p name="enable" title="Show Scroller" control="checkbox" default="1" values="1" />
+      <p name="size" title="Size" control="text" default="70" values="" class="numeric" />
+      <p name="color" title="Color" control="color" default="0x000000"/>
+      <p name="alpha" title="Opacity" control="slider" default="0.7" values="0..1:0.1" />
+      <p name="direction" title="Orientation" control="select" default="vertical" values="vertical,horizontal"/>
+      <p name="borderWidth" title="Scroller Border Width" control="slider" default="2" values="0..10:1"/>
+      <p name="borderColor" title="Scroller Border Color" control="color" default="0xffffff"/>
+      <p name="itemDistance" title="Item Distance" control="text" default="33" class="numeric" />
+      <p name="itemIndent" title="Item Indent" control="text" default="1" class="numeric" />
+      <p name="useImagesInItem" title="Use Images In Item" control="checkbox" default="1" values="1"/> 
+      <p name="showPopupTitle" title="Show Popup Title" control="checkbox" default="0" values="1" />
+    </group>
+
+    <group name="scrollerItem" title="Scroller Item">
+      <p name="width" title="Width" control="text" default="70" class="numeric" />
+      <p name="height" title="Height" control="text" default="50" class="numeric" />
+      <p name="color" title="Color" control="color" default="0xf0f0f0"/>
+      <p name="alpha" title="Scroller Item Opacity" control="slider" default="0" values="0..1:0.1"/>
+      <p name="borderColor" title="Border Color" control="color" default="0x2e3b42"/>
+      <p name="borderWidth" title="Border Width" control="slider" default="2" values="0..10:1"/>
+      <p name="shadow" title="Shadow" control="checkbox" default="1" values="1"/>
+      <p name="shadowColor" title="Shadow Color" control="color" default="0xff0000"/>
+      <p name="shadowAlpha" title="Shadow Opacity" control="slider" default="0.7" values="0..1:0.1"/>
+      <p name="shadowBlur" title="Shadow Blur" control="slider" default="4" values="0..10:1"/>
+      <p name="shadowDistance" title="Shadow Distance" control="text" default="4" values="" class="numeric" />
+    </group>
+
+    <group name="flickr" title="Flickr" type="source">
+      <p name="searchBy" title="Search By" control="select" default="keyword" values="photos,keyword,userID,albumID" />
+      <p name="userID" title="User ID" control="text" default="" />
+      <p name="keyword" title="Keyword" control="text" default="" />
+      <p name="max" title="Max Photos Number" control="text" class="numeric" default="20" />
+      <p name="albumID" title="Album ID" control="text" class="numeric" />
+    </group>
+
+    <group name="picasa" title="Picasa" type="source">
+      <p name="searchBy" title="Search By" control="select" default="keyword" values="photos,keyword,userID,albumID" />
+      <p name="userName" title="User Name" control="text" default="" />
+      <p name="keyword" title="Keyword" control="text" default="" />
+      <p name="max" title="Max Photos Number" control="text" class="numeric" default="20" />
+      <p name="albumID" title="Album ID" control="text" class="numeric" default="" />
+      <p name="albumName" title="Album Name" control="text" default="" />
+    </group>
+
+    <group name="photobucket" title="Photobucket" type="source">
+      <p name="searchString" title="Search" control="text" default="" />
+      <p name="max" title="Max Photos Number" control="text" class="numeric" default="20" />
+    </group>
+
+  </params>
+</gallery>

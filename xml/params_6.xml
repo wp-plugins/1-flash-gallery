@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gallery>
+  <params>
+	<group name="gallery" title="Settings">
+          <p name="source" title="Images source" control="select" default="local" values="local,flickr,picasa,photobucket" />
+          <p name="type" title="Gallery Type" control="select" default="byFolder" values="byFolder,flat" />
+        </group>
+        
+	<group name="navigation" title="Controls">
+	  <p name="hideFullScreenButton" title="Hide Play Button" control="checkbox" default="1" values="1" />
+	  <p name="hidePlayButton" title="Hide Navigate Buttons" control="checkbox" default="0" values="1" />
+	</group>
+	
+	<group name="image" title="Image">
+	  <p name="linkTarget" title="Link Target" control="select"  default="_blank" values="_blank,_self" />
+	  <p name="imageAsLink" title="Image As Link" control="checkbox"  default="0" values="1" />
+	</group>
+	
+	<group name="slideshow" title="Slideshow">
+          <p name="autostart" title="Auto Start" control="checkbox"  default="0" values="1"/>
+          <p name="stopByClick" title="Stop By Click" control="checkbox"  default="1" values="1" />
+          <p name="pauseMusic" title="Pause Music" control="checkbox"  default="1" values="1" />
+	  <p name="sendID" title="Show text under slideshow" control="checkbox"  default="1" values="1" />
+	  <p name="enable" title="Auto Start" control="checkbox" default="1" values="1" />
+	  <p name="delay" title="Delay, sec." control="slider"  default="3" values="0..20:1"/>
+	  <p name="music" title="Music" control="checkbox" default="0" values="1" />
+          <p name="musicPath" title="Path to music" control="text" default="" type="file" />
+	</group>
+	
+	<group name="scroller" title="Scroller">
+	  <p name="enable" title="Enable" control="checkbox" default="1" values="1" />
+	  <p name="size" title="Width" control="text" default="570" class="numeric" />
+	</group>
+	
+	<group name="scrollerItem" title="Scroller Item">
+	  <p name="type" title="Type" control="select" default="triangle" values="vertical,line,triangle" />
+	  <p name="color" title="Color" control="color" default="0x000000" />
+	  <p name="scaleEffect" title="Scale Effect" control="select" default="spin" values="scale,slide,spin" />
+	  <p name="reflection" title="Reflection" control="checkbox" default="1" values="1" />
+	  <p name="reflectionAlpha" title="Reflection Opacity" control="slider" default="0.3" values="0..1:0.1" />
+	  <p name="reflectionDistance" title="Reflection Distance" control="text" default="8" class="numeric" />
+	  <p name="reflectionGradientColorStart" title="Reflection Gradient Color Start" control="color" default="0x000000" />
+	  <p name="reflectionGradientColorFinish" title="Reflection Gradient Color Finish" control="color" default="0x000000" />
+	  <p name="borderWidth" title="Border Width" control="slider" default="10" values="1..10:1" />
+	  <p name="borderColor" title="Border Color" control="color" default="0xfedcba" />
+	  <p name="borderEclipse" title="Border Corner Radius" control="text" default="5" class="numeric" />
+	  <p name="borderAlpha" title="Border Opacity" control="slider" default="0.5" values="0..1:0.1" />
+	  <p name="borderPhotoWidth" title="Border Photo Width" control="text" default="10" class="numeric" />
+	  <p name="borderPhotoColor" title="Border Photo Color" control="color" default="0xfedcba" />
+	  <p name="borderPhotoAlpha" title="Border Photo Alpha" control="slider" default="0.5" values="0..1:0.1" />
+	  <p name="backgroundPhoto" title="Background Photo" control="text" default="" />
+	  <p name="alpha" title="Opacity" control="slider" default="1" values="0..1:0.1" />
+	  <p name="width" title="Width" control="text" default="240" class="numeric" />
+	  <p name="height" title="Height" control="text" default="180" class="numeric" />
+	  <p name="distanceX" title="Distance X" control="text" default="25" class="numeric" />
+          <p name="distanceY" title="Distance Y" control="text" default="0" class="numeric" />
+	  <p name="distanceZ" title="Distance Z" control="text" default="20" class="numeric" />
+	  <p name="rotation" title="Rotation" control="slider" default="0" values="0..360:10" />
+	  <p name="cornerRadius" title="Corner Radius" control="slider" default="0" values="0..90:5" />
+	  <p name="backgroundColor" title="Background Color" control="color" default="0x000000" />
+	  <p name="scaleSmall" title="Scale Preview" control="select" default="fit" values="fit,fill,noScale" />
+	  <p name="scalePhoto" title="Scale Photo" control="select" default="noScale" values="fit,fill,noScale" />
+	</group>
+	
+	<group name="caption" title="Caption">
+	  <p name="enable" title="Enable" control="checkbox" default="0" values="1" />
+	  <p name="font" title="Font" control="select" default="Tahoma" values="Tahoma" />
+	  <p name="visible" title="Visibility" control="select" default="always" values="always,never,onHover" />
+	  <p name="align" title="Align" control="select" default="bottom" values="bottom,top" />
+	  <p name="fontSize" title="Font Size" control="slider" default="14" values="8..26:1" />
+	  <p name="bold" title="Bold Font" control="checkbox" default="0" values="1" />
+	  <p name="fontColor" title="Color" control="Color" default="0x000000" />
+	  <p name="background" title="Background" control="checkbox" default="0" values="1" />
+	  <p name="backgroundColor" title="Background Color" control="color" default="0xffffff" />
+	  <p name="backgroundAlpha" title="Background Alpha" control="slider" default="0.7" values="0..1:0.1" />
+	</group>
+	
+	<group name="tool_tip" title="Navigation">
+	  <p name="color" title="Color" control="color" default="0x000000" />
+	  <p name="alpha" title="Opacity" control="slider" default="0.7" values="0..1:0.1" />
+	  <p name="max_width" title="Width" control="text" default="180" />
+	  <p name="font" title="Font" control="select" default="Tahoma" values="Tahoma" />
+	  <p name="font_color" title="Font Color" control="color" default="0xffffff" />
+	  <p name="font_size" title="Font Size" control="slider" default="14" values="8..26:1" />
+	  <p name="time_show" title="Time Show" control="slider" deafult="0.5" values="0.1..2:0.1" />
+	</group>
+	
+	<group name="background" title="Background">
+	  <p name="type" title="Type" control="select" default="color" values="color,image" />
+	  <p name="alpha" title="Background Opacity" control="slider" default="0.7" values="0..1:0.1" />
+	  <p name="color" title="Background Color" control="color" default="0xffffff" />
+          <p name="src" title="Background Image" control="text" default="" values="" type="file" />
+	</group>
+	
+	<group name="flickr" title="Flickr" type="source">
+	  <p name="searchBy" title="Search By" control="select" default="photos" values="photos,keyword,userID,albumID" />
+	  <p name="userID" title="User ID" control="text" default="" />
+	  <p name="keyword" title="Keyword" control="text" default="" />
+	  <p name="max" title="Max Photos Number" control="text" class="numeric" default="20" />
+	  <p name="albumID" title="Album ID" control="text" class="numeric" />
+	</group>
+	
+	<group name="picasa" title="Picasa" type="source">
+	  <p name="searchBy" title="Search By" control="select" default="photos" values="photos,keyword,userID,albumID" />
+	  <p name="userName" title="User Name" control="text" default="" />
+	  <p name="keyword" title="Keyword" control="text" default="" />
+	  <p name="max" title="Max Photos Number" control="text" class="numeric" default="20" />
+	  <p name="albumID" title="Album ID" control="text" class="numeric" default="" />
+	  <p name="albumName" title="Album Name" control="text" default="" />
+	</group>
+	
+	<group name="photobucket" title="Photobucket" type="source">
+	  <p name="searchString" title="Search" control="text" default="" />
+	  <p name="max" title="Max Photos Number" control="text" class="numeric" default="20" />
+	</group>
+	
+  </params>
+</gallery>

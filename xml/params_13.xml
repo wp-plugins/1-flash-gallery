@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gallery>
+  <params>          
+    <group name="book" title="Book">
+       <p name="fitToStageOnFullscreen" title="Fit to Stage On Full Screen" control="checkbox" default="1" values="1" />
+       <p name="bookType" title="Book Type" control="select" default="horisontal" values="horisontal,vertical,slider" />
+       <p name="width" title="Width" control="text" default="800" values="" class="numeric" />
+       <p name="height" title="Height" control="text" default="467" values="" class="numeric" />
+       <p name="alwaysOpened" title="Always Opened" control="checkbox" default="1" values="1" />
+       <p name="flipSoundPath" title="Flip Sound Path" control="text" default="" values="" type="file" />
+       <p name="pageAlignContent" title="Align" control="select" default="fit" values="fit,fill,noScale" />
+       <p name="coverType" title="Cover Type" control="select" default="hard" values="hard,soft" />
+    </group>
+    
+    <group name="slideshow" title="Slideshow">
+      <p name="autostart" title="Auto Start" control="checkbox"  default="1" values="1" />
+      <p name="delay" title="Delay, sec." control="slider"  default="2" values="0..20:1"/>
+      <p name="musicPath" title="Music Path" control="text" default="" values="" type="file" />
+    </group>
+
+    <group name="menu" title="Menu">
+        <p name="navigationBar" title="Display Navigation" control="checkbox" default="1" values="1" />
+        <p name="navigationBarPlacement" title="Navigation Align" control="select" default="top" values="top,bottom" />
+        <p name="navigationBarTitle" title="Show Navigation Title" control="checkbox" default="1" values="1" />
+    </group>
+
+  </params>
+</gallery>
